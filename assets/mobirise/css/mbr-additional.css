@@ -1338,6 +1338,37 @@ a.btn-white {
 .cid-sx5hT7q1Nx .mbr-title {
   color: #ffffff;
 }
+.cid-sxTwqZR2Ae {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-sxTwqZR2Ae .counter-container {
+  color: #464646;
+}
+.cid-sxTwqZR2Ae .counter-container div {
+  margin-bottom: 1rem;
+  padding-left: 5rem;
+}
+.cid-sxTwqZR2Ae .counter-container li {
+  list-style: none;
+  padding-left: 6rem;
+  position: relative;
+}
+.cid-sxTwqZR2Ae .counter-container .counter {
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 40px;
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  margin: 0 0 5px;
+  line-height: 40px;
+  transition: all .2s;
+  width: 60px;
+  height: 40px;
+}
 .cid-qIjGVVeB7i {
   padding-top: 30px;
   padding-bottom: 30px;

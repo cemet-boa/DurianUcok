@@ -59,8 +59,9 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 2,
-    "versionPublish": "5.3.0"
+    "uniqCompNum": 5,
+    "versionPublish": "5.3.0",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -709,6 +710,49 @@
           "_params": {}
         },
         {
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section article content6 agencym4_content6\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\t\t<input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n\t\t<input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#1ec5bf\" condition=\"stylizedCounters\">\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container\">\n\t\t<div class=\"media-container-row\">\n\t\t\t<div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style pt-5\">\n\t\t\t\t<div class=\"mb-5\">\n\t\t\t\t\t<h4 class=\"counter\">01.</h4>\n\t\t\t\t\t<h3 class=\"mb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Kampung Artis Foodcourt Lebak Bulus&nbsp;<b>@kampungartisfoodcourtl</b>\n\t\t\t\t\t</h3>\n\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Lorem ipsum dolor sit amet,\n\t\t\t\t\t\tconsectetur adipisicing elit. Ad adipisci, commodi cum dicta dolorum earum ipsa, iure laudantium\n\t\t\t\t\t\tnam nobis odio odit possimus recusandae sunt tenetur vero voluptas. Cupiditate, laudantium.</p>\n\t\t\t\t</div>\n                <div class=\"mb-5\">\n\t\t\t\t\t<h4 class=\"counter\">02.</h4>\n\t\t\t\t\t<h3 class=\"mb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Taman Jajan CBD <b>Bintaro</b> Sektor 7</h3>\n\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n\t\t\t\t</div>\n                <div class=\"mb-5\">\n\t\t\t\t\t<h4 class=\"counter\">03.</h4>\n\t\t\t\t\t<h3 class=\"mb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Papyruz Foodcourt Tanjung Barat<b> Simatupang</b></h3>\n\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mb-5\">\n\t\t\t\t\t<h4 class=\"counter\">04.</h4>\n\t\t\t\t\t<h3 class=\"mb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Taman Kuliner <b>Cirendeu</b> - Bukit Cirendeu</h3>\n\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mb-5\">\n\t\t\t\t\t<h4 class=\"counter\">05.</h4>\n\t\t\t\t\t<h3 class=\"mb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Tekweid - CBD <b>Cengkareng</b> Jakbar</h3>\n\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Lorem ipsum dolor sit amet,\n\t\t\t\t\t\tconsectetur adipisicing elit. Accusamus, amet, aperiam at beatae in, itaque nam nemo non quae\n\t\t\t\t\t\tratione repudiandae vitae! Nulla, repellendus, voluptatum. Expedita, nobis sit. Illo,\n\t\t\t\t\t\tlaudantium.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#464646",
+              "div": {
+                "margin-bottom": "1rem",
+                "padding-left": "5rem"
+              },
+              "li": {
+                "list-style": "none",
+                "padding-left": "6rem",
+                "position": "relative"
+              },
+              ".counter": {
+                "text-overflow": "clip",
+                "overflow": "hidden",
+                "white-space": "nowrap",
+                "font-size": "40px",
+                "position": "absolute",
+                "left": "0",
+                "display": "inline-block",
+                "margin": "0 0 5px",
+                "line-height": "40px",
+                "transition": "all .2s",
+                "width": "60px",
+                "height": "40px"
+              }
+            }
+          },
+          "_cid": "sxTwqZR2Ae",
+          "_anchor": "content6-4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -859,11 +903,11 @@
           "_sourceTheme": "firmm4",
           "_customHTML": "<section class=\"firmm4_footer3\" group=\"Footers\" global mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"5\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"6\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background/background.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#051441\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    \n    <div class=\"line\" mbr-if=\"showLine\"></div>\n    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-between\">\n            <div class=\"col-12 col-md-4 col-lg-5\">\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                    © Copyright 2021 UcokDurian. All Rights Reserved.\n                </p>\n            </div>\n            <div class=\"col-12 col-md-4 col-lg-3\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list text-center\">\n                    <div class=\"soc-item\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social mobi-mbri-shopping-bag mobi-mbri\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                </div>\n            </div>\n            <div class=\"col-12 col-md-4 col-lg-4\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"foot-menu-item\">Bispro.info</li>\n                    \n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sx5kEhbgBK",
+          "_anchor": "footer3-1",
           "_protectedParams": [],
           "_global": true,
           "_once": false,
-          "_params": {},
-          "_anchor": "footer3-1"
+          "_params": {}
         }
       ]
     }
